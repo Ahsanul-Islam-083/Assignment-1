@@ -1,35 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     /* font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif; */
 }
-.container{
-    width: 79%;
-    max-width: 1040px;
+
+.container {
+    width: 100%;
+    max-width: 1320px;
     margin: 0 auto;
 }
-.banner{
+
+h3 {
+    color: #070211;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.banner {
     margin-top: 30px;
     background-image: url('resources/Banner-Image.png');
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 16px;
+    border-radius: 8px;
 }
-.banner .banner-text{
+
+.banner .banner-text {
     text-align: center;
-    padding: 100px 200px;
+    padding: 177px 340px;
     color: #fff;
     font-family: 'Merriweather', serif;
     text-shadow: 2px 2px 4px #000000;
 }
-.banner .banner-text p{
-font-size: 26px;
-font-weight: 400;
+
+.banner .banner-text p {
+    font-size: 38px;
+    font-weight: 400;
 }
-.banner .banner-text h1{
-font-size: 57px;
-font-weight: 900;
+
+.banner .banner-text h1 {
+    font-size: 80px;
+    font-weight: 900;
+}
+
+#discount .discount-content {
+    text-align: center;
+    margin: 70px auto;
+    font-family: Inter;
+    width: 100%;
+    max-width: 850px;
+}
+
+/* #discount .discount-content .discount-text{
+max-width: 300px;
+} */
+#discount .discount-content .discount-text h2 {
+    color: #F00;
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+#discount .discount-content .discount-text p{
+    color: #F00;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#discount .discount-content .discount-img img {
+    text-align: center;
+    width: 100%;
 }
