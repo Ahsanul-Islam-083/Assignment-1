@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     /* font-family: 'Inter', sans-serif;
-    font-family: 'Merriweather', serif; */
+      */
 }
 
 .container {
@@ -15,11 +15,26 @@
 
 h3 {
     color: #070211;
-    text-align: center;
     font-family: 'Inter', sans-serif;
     font-size: 45px;
     font-weight: 700;
     margin-bottom: 25px;
+}
+
+.imp-paragraph{
+    color: rgb(7, 11, 255);
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+.second-para {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
 }
 
 .banner {
@@ -32,6 +47,7 @@ h3 {
 }
 
 .banner .banner-text {
+    /* max-width: 632px; */
     text-align: center;
     padding: 177px 340px;
     color: #fff;
@@ -52,7 +68,7 @@ h3 {
 #discount .discount-content {
     text-align: center;
     margin: 70px auto;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     width: 100%;
     max-width: 850px;
 }
@@ -67,12 +83,7 @@ max-width: 300px;
     margin-bottom: 25px;
 }
 
-#discount .discount-content .discount-text p {
-    color: rgb(0, 174, 255);
-    font-size: 22px;
-    font-weight: 500;
-    margin-bottom: 10px;
-}
+#discount .discount-content .discount-text p {}
 
 #discount .discount-content .discount-img img {
     text-align: center;
@@ -98,7 +109,7 @@ max-width: 300px;
 
 #welcome-party .midnight-party .welcome-text h2 {
 
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-size: 64px;
     font-weight: 900;
     line-height: 88px;
@@ -122,47 +133,93 @@ max-width: 300px;
     border: none;
     background: none;
     text-align: center;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 700;
     cursor: pointer;
     padding: 3px;
 }
-.welcome-party .midnight-party .welcome-img{
+
+.welcome-party .midnight-party .welcome-img {
     display: flex;
     max-width: 280px;
 }
-.welcome-party .midnight-party .welcome-img img{
+
+.welcome-party .midnight-party .welcome-img img {
     will-change: 100%;
 }
-#time-location .party-spot{
+
+#time-location .party-spot {
     margin-top: 100px;
-    background:  linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     padding: 100px 0;
     text-align: center;
-    
+    border-radius: 8px;
+
 }
-#time-location .party-spot .time-location-details h3{
+
+#time-location .party-spot .time-location-details h3 {
     color: #070211;
-font-family: Inter;
-font-size: 32px;
-font-style: normal;
-font-weight: 600;
-line-height: 28px;
-text-transform: capitalize;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    text-transform: capitalize;
 }
-.important{
+
+.important {
     color: #F00;
 }
 
-#time-location .party-spot .time-location-details button{
+#time-location .party-spot .time-location-details button {
     border-radius: 8px;
     border: none;
-background: #F00;
-padding: 16px 32px;
-padding: 16px 32px;
-color: #FFF;
-font-family: Inter;
-font-size: 20px;
+    background: #F00;
+    padding: 16px 32px;
+    padding: 16px 32px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#offers .round-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding: 30px;
+    gap: 70px;
+}
+
+#offers .round-img * {
+    max-width: 400px;
+}
+#offers .round-img .box1{
+    /* padding: 15px; */
+   width: 100%;
+}
+#offers .round-img .box1 h3{
+    font-family: 'Merriweather', serif;
+}
+#offers .round-img .box2{
+    border: 12px solid rgba(136, 0, 255, 0.741);
+    border-radius: 210px;
+    padding: 15px;
+}
+#offers .round-img .box2 img{
+    /* width: 100%; */
+}
+#offers .round-img .box3 h4{
+    /* padding: 15px; */
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+font-size: 48px;
 font-weight: 700;
+width: 100%;
+margin-bottom: 16px;
+}
+#offers .round-img .box3 img{
+    margin-top: 43px;
 }
