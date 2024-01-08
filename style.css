@@ -67,8 +67,8 @@ max-width: 300px;
     margin-bottom: 25px;
 }
 
-#discount .discount-content .discount-text p{
-    color: #F00;
+#discount .discount-content .discount-text p {
+    color: rgb(0, 174, 255);
     font-size: 22px;
     font-weight: 500;
     margin-bottom: 10px;
@@ -77,4 +77,61 @@ max-width: 300px;
 #discount .discount-content .discount-img img {
     text-align: center;
     width: 100%;
+}
+
+#welcome-party .midnight-party {
+    background-image: url('resources/Vectorrr.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 0;
+    border-radius: 8px;
+}
+
+#welcome-party .midnight-party .welcome-text {
+    max-width: 600px;
+    color: #FFF;
+}
+
+#welcome-party .midnight-party .welcome-text h2 {
+
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    margin-bottom: 20px;
+}
+
+#welcome-party .midnight-party .welcome-text p {
+    color: rgba(255, 255, 255, 0.918);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 3px #000000;
+
+}
+
+#welcome-party .midnight-party .welcome-text button {
+    color: #FFF;
+    border: none;
+    background: none;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 3px;
+}
+.welcome-party .midnight-party .welcome-img{
+    display: flex;
+    max-width: 280px;
+}
+.welcome-party .midnight-party .welcome-img img{
+    will-change: 100%;
 }
